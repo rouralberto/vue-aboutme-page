@@ -1,6 +1,6 @@
 <template>
     <main id="app">
-        <AboutMe name="Alberto Roura" line="Software Engineer and Cycling enthusiast"/>
+        <AboutMe />
     </main>
 </template>
 
