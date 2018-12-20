@@ -19,8 +19,8 @@ pouch run -d -p 80:80 --name aboutme-vue \
 -e VUE_APP_GITHUB_URL="#" \
 roura/aboutme-vue
 
-pouch exec -it aboutme-vue npm install
-pouch exec -it aboutme-vue npm run build
+pouch exec -i aboutme-vue npm install
+pouch exec -i aboutme-vue npm run build
 ```
 Then `sh create.sh`.
 
@@ -43,7 +43,7 @@ docker run -d -p 80:80 --name aboutme-vue \
 -e VUE_APP_GITHUB_URL="#" \
 roura/aboutme-vue
 
-docker exec -it aboutme-vue npm install
-docker exec -it aboutme-vue npm run build
+docker exec -i aboutme-vue npm install
+docker exec -i aboutme-vue npm run build
 ```
 Then `sh create.sh`.
