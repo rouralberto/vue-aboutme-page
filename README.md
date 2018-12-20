@@ -9,8 +9,8 @@ Create a file `create.sh`:
 pouch stop aboutme-vue
 pouch rm aboutme-vue
 pouch run -d -p 80:80 --name aboutme-vue \
--e VUE_APP_NAME="Alberto Roura" \
--e VUE_APP_LINE="PouchContainer + Tengine + Vuejs" \
+-e VUE_APP_NAME="Your Name" \
+-e VUE_APP_LINE="Some words about you here" \
 -e VUE_APP_TWITTER_URL="#" \
 -e VUE_APP_FACEBOOK_URL="#" \
 -e VUE_APP_INSTAGRAM_URL="#" \
