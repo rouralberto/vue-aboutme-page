@@ -2,7 +2,7 @@
     <div>
         <h1 v-if="name">I'm {{ name }}.<span class="blink">|</span></h1>
         <h2 v-if="line">{{ line }}</h2>
-        <SocialLinks/>
+        <SocialLinks />
     </div>
 </template>
 
